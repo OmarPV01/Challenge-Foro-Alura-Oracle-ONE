@@ -1,0 +1,17 @@
+spring:
+     datasource:
+         driver-class-name: com.mysql.cj.jdbc.Driver
+         url: jdbc:mysql://localhost/foro_alura
+         username: root
+         password: password01
+     jpa:
+         show-sql: true
+         hibernate:
+             ddl-auto: update
+         properties:
+             hibernate:
+               format_sql: true
+server:
+     port: 80
+     error:
+         include-stacktrace: never
